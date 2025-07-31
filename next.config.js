@@ -4,18 +4,16 @@ const nextConfig = {
   images: {
     domains: ['racialterms.com'],
     formats: ['image/webp', 'image/avif'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
   
   // 压缩配置
   compress: true,
   
-  // 实验性功能
-  experimental: {
-    optimizeCss: true,
-    optimizePackageImports: ['lucide-react'],
-  },
+  // 实验性功能 - 暂时禁用以避免部署问题
+  // experimental: {
+  //   optimizeCss: true,
+  //   optimizePackageImports: ['lucide-react'],
+  // },
   
   // 生成静态站点地图
   async generateBuildId() {
