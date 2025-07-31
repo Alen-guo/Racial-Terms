@@ -18,7 +18,7 @@ export default function Header() {
       <div className="container-responsive">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2" aria-label="Racial Terms - Home">
             <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
               <BookOpen className="w-5 h-5 text-white" />
             </div>
@@ -28,12 +28,13 @@ export default function Header() {
           </Link>
 
           {/* 桌面端导航 */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-8" role="navigation" aria-label="Main navigation">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
                 className="text-neutral-600 hover:text-neutral-900 font-medium transition-colors"
+                aria-label={`Navigate to ${item.name} page`}
               >
                 {item.name}
               </Link>

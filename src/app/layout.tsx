@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import '@/styles/globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import StructuredData from '@/components/StructuredData'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,14 +22,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://localhost:3000'),
+  metadataBase: new URL('https://racialterms.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Racial Discrimination Terms - Educational Resource',
     description: 'Learn about racial discrimination terms, their history, and impact through our comprehensive educational resource.',
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://localhost:3000',
+    url: 'https://racialterms.com',
     siteName: 'Racial Discrimination Terms',
     images: [
       {
@@ -59,7 +60,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: process.env.GOOGLE_VERIFICATION_CODE || '',
+    google: 'google40507cb32f60f542',
   },
 }
 
@@ -77,6 +78,8 @@ export default function RootLayout({
         <meta name="theme-color" content="#f27522" />
       </head>
       <body className={`${inter.className} antialiased bg-neutral-50 text-neutral-900`}>
+        <StructuredData type="website" />
+        <StructuredData type="organization" />
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1">

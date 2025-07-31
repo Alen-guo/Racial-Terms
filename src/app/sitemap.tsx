@@ -3,7 +3,7 @@ import termsData from '@/data/terms.json'
 import { Term } from '@/types'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://localhost:3000'
+  const baseUrl = 'https://racialterms.com'
   const terms = termsData as Term[]
   
   // 静态页面
@@ -25,6 +25,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/term-detail`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
     },
   ]
 
