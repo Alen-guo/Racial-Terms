@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="256" cy="256" r="240" fill="white" stroke="#f27522" stroke-width="12"/>
+  
+  <!-- 开放书籍图标 -->
+  <g transform="translate(256, 256)">
+    <!-- 书本主体 -->
+    <rect x="-80" y="-50" width="160" height="100" rx="8" fill="white" stroke="#f27522" stroke-width="6"/>
+    
+    <!-- 书页 -->
+    <rect x="-70" y="-40" width="140" height="80" rx="4" fill="#f8fafc"/>
+    
+    <!-- 书脊 -->
+    <rect x="-5" y="-40" width="10" height="80" fill="#f27522"/>
+    
+    <!-- 书页线条 -->
+    <line x1="-60" y1="-20" x2="60" y2="-20" stroke="#e2e8f0" stroke-width="2"/>
+    <line x1="-60" y1="-5" x2="60" y2="-5" stroke="#e2e8f0" stroke-width="2"/>
+    <line x1="-60" y1="10" x2="60" y2="10" stroke="#e2e8f0" stroke-width="2"/>
+    <line x1="-60" y1="25" x2="60" y2="25" stroke="#e2e8f0" stroke-width="2"/>
+    <line x1="-60" y1="40" x2="60" y2="40" stroke="#e2e8f0" stroke-width="2"/>
+    
+    <!-- 装饰性元素：小圆点 -->
+    <circle cx="-45" cy="-30" r="3" fill="#f27522"/>
+    <circle cx="45" cy="-30" r="3" fill="#f27522"/>
+  </g>
+</svg> 

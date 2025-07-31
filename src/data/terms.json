@@ -1,0 +1,89 @@
+[
+  {
+    "id": "term-1",
+    "slug": "racial-slur",
+    "term": "Racial Slur",
+    "pronunciation": "/ˈreɪʃəl slɜːr/",
+    "definition": "A derogatory term or phrase used to insult, demean, or express hatred toward individuals or groups based on their race, ethnicity, or nationality.",
+    "history": "Racial slurs have existed throughout human history, often emerging during periods of colonization, slavery, and racial segregation. Many originated as terms used by dominant groups to dehumanize and oppress minority populations. These terms were frequently used in legal documents, literature, and everyday speech to reinforce racial hierarchies and justify discriminatory practices.",
+    "context": "Racial slurs are used in various contexts, including casual conversation, media, online platforms, and hate speech. They may be used intentionally to cause harm or unconsciously due to lack of awareness about their offensive nature. The impact of these terms extends beyond individual interactions, contributing to systemic racism and perpetuating harmful stereotypes.",
+    "impact": "Racial slurs cause significant psychological and emotional harm to individuals and communities. They reinforce negative stereotypes, create hostile environments, and contribute to systemic racism. The use of these terms can lead to increased stress, anxiety, depression, and feelings of isolation among targeted groups. They also normalize discriminatory behavior and make it more difficult to achieve racial equality.",
+    "alternatives": [
+      "Respectful language",
+      "Person-first language",
+      "Cultural terms",
+      "Preferred identifiers"
+    ],
+    "category": "severe",
+    "tags": ["offensive", "harmful", "discriminatory", "hate-speech"],
+    "usageContext": ["everyday", "media", "online", "historical"],
+    "historicalPeriod": "contemporary",
+    "relatedTerms": ["hate-speech", "discrimination", "stereotype", "microaggression"],
+    "examples": [
+      "Using derogatory terms to refer to people of color",
+      "Casual use of racial slurs in conversation",
+      "Online harassment using racial epithets"
+    ],
+    "educationalNotes": "Understanding the history and impact of racial slurs is crucial for creating inclusive environments. Education about these terms should focus on their harmful effects and the importance of using respectful, person-first language.",
+    "createdAt": "2024-01-01T00:00:00Z",
+    "updatedAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "term-2",
+    "slug": "microaggression",
+    "term": "Microaggression",
+    "pronunciation": "/ˌmaɪkroʊəˈɡreʃən/",
+    "definition": "Subtle, often unintentional, comments or actions that communicate hostile, derogatory, or negative messages to individuals based on their marginalized group membership.",
+    "history": "The term 'microaggression' was first coined by psychiatrist Chester M. Pierce in 1970 to describe subtle insults and put-downs that African Americans experienced from white Americans. The concept was later expanded by psychologist Derald Wing Sue and colleagues to include various forms of subtle discrimination against different marginalized groups.",
+    "context": "Microaggressions occur in everyday interactions, workplaces, educational settings, and media. They often take the form of seemingly innocent comments, questions, or behaviors that reflect unconscious biases. Examples include asking someone where they're 'really' from, making assumptions about someone's abilities based on their race, or using language that excludes certain groups.",
+    "impact": "While individual microaggressions may seem minor, their cumulative effect can be significant. They contribute to stress, anxiety, and feelings of alienation among marginalized individuals. Microaggressions can also create hostile environments and reinforce systemic inequalities by normalizing discriminatory behavior.",
+    "alternatives": [
+      "Inclusive language",
+      "Cultural sensitivity",
+      "Respectful communication",
+      "Awareness of bias"
+    ],
+    "category": "moderate",
+    "tags": ["subtle", "unconscious-bias", "discrimination", "inclusion"],
+    "usageContext": ["everyday", "workplace", "education", "media"],
+    "historicalPeriod": "contemporary",
+    "relatedTerms": ["implicit-bias", "discrimination", "inclusion", "cultural-competency"],
+    "examples": [
+      "Asking an Asian American person where they're 'really' from",
+      "Assuming a Black person is good at sports",
+      "Telling someone they 'speak English well' when it's their native language"
+    ],
+    "educationalNotes": "Recognizing and addressing microaggressions requires ongoing education and self-reflection. It's important to listen to feedback from marginalized individuals and be willing to learn from mistakes.",
+    "createdAt": "2024-01-01T00:00:00Z",
+    "updatedAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "term-3",
+    "slug": "tokenism",
+    "term": "Tokenism",
+    "pronunciation": "/ˈtoʊkənɪzəm/",
+    "definition": "The practice of making only a perfunctory or symbolic effort to include members of underrepresented groups, especially by recruiting a small number of people from such groups to give the appearance of equality or diversity.",
+    "history": "The term 'tokenism' emerged in the 1960s during the civil rights movement to describe the practice of including a small number of minority individuals in organizations or institutions to avoid accusations of discrimination. This practice was often used by companies and institutions to appear progressive while maintaining existing power structures.",
+    "context": "Tokenism occurs in various settings including workplaces, educational institutions, media, and politics. It often manifests as hiring or including one or two individuals from underrepresented groups without addressing systemic barriers or creating truly inclusive environments.",
+    "impact": "Tokenism can be harmful to the individuals who are tokenized, as they may feel isolated, pressured to represent their entire group, or used for public relations purposes. It also prevents meaningful progress toward diversity and inclusion by creating the illusion of change without addressing underlying systemic issues.",
+    "alternatives": [
+      "Meaningful inclusion",
+      "Systemic change",
+      "Authentic diversity",
+      "Equitable representation"
+    ],
+    "category": "moderate",
+    "tags": ["diversity", "inclusion", "representation", "systemic-racism"],
+    "usageContext": ["workplace", "education", "media", "politics"],
+    "historicalPeriod": "contemporary",
+    "relatedTerms": ["diversity", "inclusion", "representation", "systemic-racism"],
+    "examples": [
+      "Hiring one person of color to meet diversity quotas",
+      "Including one woman on an all-male panel",
+      "Featuring one minority character in a predominantly white cast"
+    ],
+    "educationalNotes": "True inclusion requires systemic change, not just symbolic gestures. Organizations should focus on creating equitable opportunities and addressing barriers that prevent meaningful participation from underrepresented groups.",
+    "createdAt": "2024-01-01T00:00:00Z",
+    "updatedAt": "2024-01-01T00:00:00Z"
+  }
+] 
